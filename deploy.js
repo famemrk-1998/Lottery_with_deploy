@@ -1,7 +1,7 @@
 const fs = require("fs");
 const Web3 = require("web3");
-const mnemonic = ""
-const truffleURL = ""
+const mnemonic = "XXXX"
+const truffleURL = "XXXX"
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const provider = new HDWalletProvider(mnemonic, truffleURL)
 const web3 = new Web3(provider);
